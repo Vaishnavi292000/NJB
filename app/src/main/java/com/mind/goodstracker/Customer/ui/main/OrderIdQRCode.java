@@ -1,4 +1,4 @@
-package com.mind.goodstracker.Customer;
+package com.mind.goodstracker.Customer.ui.main;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

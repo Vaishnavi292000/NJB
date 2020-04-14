@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SimpleLogin</string>
+    <array name="Category">
+        <item>--Category--</item>
+        <item>Delivery System</item>
+        <item>Customer</item>
+        <item>Administrator</item>
+    </array>
+    <string name="title_activity_admin">Admin</string>
+    <string name="tab_text_1">Delivery System</string>
+    <string name="tab_text_2">Product Description</string>
+    <string name="tab_text_3">Trip Description</string>
+    <string name="title_activity_customer__tabbed" tools:ignore="ExtraTranslation">Customer_Tabbed</string>
+    <string name="tab_text_4">Enter Places</string>
+    <string name="tab_text_5">Place An Order</string>
+    <string name="tab_text_6">My Orders</string>
+</resources>
