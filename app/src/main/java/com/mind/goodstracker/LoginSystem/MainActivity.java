@@ -28,6 +28,7 @@ import com.mind.goodstracker.Customer.Customer_Tabbed;
 import com.mind.goodstracker.Customer.ui.main.Customer;
 import com.mind.goodstracker.DiliveryPerson.DeliveryPerson;
 import com.mind.goodstracker.R;
+import com.mind.goodstracker.SetLocationService;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -45,10 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btlogin;
     String category;
     String loginid;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        startService(new Intent(this, SetLocationService.class));
+
 
         username = findViewById(R.id.etUsername);
         password = findViewById(R.id.etPassword);
